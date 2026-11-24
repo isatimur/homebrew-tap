@@ -7,12 +7,12 @@ cask "ai-usage-meter" do
   desc "Menu-bar app for AI coding tool usage, cost and plan limits"
   homepage "https://github.com/isatimur/ai-usage-meter"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AIUsageMeter.app"
 
   zap trash: [
-    "~/Library/Preferences/app.aiusagemeter.AIUsageMeter.plist",
     "~/Library/Caches/app.aiusagemeter.AIUsageMeter",
+    "~/Library/Preferences/app.aiusagemeter.AIUsageMeter.plist",
   ]
 end

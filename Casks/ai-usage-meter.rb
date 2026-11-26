@@ -1,6 +1,6 @@
 cask "ai-usage-meter" do
-  version "0.1.6"
-  sha256 "161ba5df4a413c703dcea3dfee536dd7dae6e09e96e545ec4da3bd83ddfce882"
+  version "0.1.7"
+  sha256 "edac6588f5d3bdb6acba1f104de8b4cf2628324d0efdf2545fec3faf6c772761"
 
   url "https://github.com/isatimur/ai-usage-meter/releases/download/v#{version}/AIUsageMeter-#{version}.dmg"
   name "AI Usage Meter"
